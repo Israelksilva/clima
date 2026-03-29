@@ -7,9 +7,8 @@ Uma aplicação de previsão do tempo moderna e responsiva que consome dados em 
 Abaixo você pode ver a interface do projeto, com o sistema de busca e a exibição detalhada dos dados climáticos:
 
 <div align="center">
+  <img width="315" height="155" alt="image" src="https://github.com/user-attachments/assets/3d169a39-d89e-4204-a0bf-e554b46af415" />
   <img width="374" height="492" alt="image" src="https://github.com/user-attachments/assets/8c22ffb8-b838-441d-be8b-590ccd4fc8a7" />
-
-  <img <img width="315" height="155" alt="image" src="https://github.com/user-attachments/assets/3d169a39-d89e-4204-a0bf-e554b46af415" />
 >
 </div>
 

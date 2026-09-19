@@ -1,32 +1,32 @@
-# 🌤️ Weather Forecast App
+# Clima Agora
 
-Uma aplicação de previsão do tempo moderna e responsiva que consome dados em tempo real da API OpenWeatherMap.
+Aplicativo responsivo de previsão do tempo feito com HTML, CSS e JavaScript.
 
-## 📸 Demonstração do Projeto
+## Como abrir no VS Code
 
-Abaixo você pode ver a interface do projeto, com o sistema de busca e a exibição detalhada dos dados climáticos:
+1. Extraia o arquivo ZIP.
+2. Abra a pasta `clima-agora-vscode` no VS Code.
+3. Confirme que o Node.js está instalado.
+4. Abra o terminal do VS Code nessa pasta.
+5. Execute: `node server.js`
+6. Abra `http://localhost:3000` no navegador.
 
-<div align="center">
-  <img width="315" height="155" alt="image" src="https://github.com/user-attachments/assets/3d169a39-d89e-4204-a0bf-e554b46af415" />
-  <img width="374" height="492" alt="image" src="https://github.com/user-attachments/assets/8c22ffb8-b838-441d-be8b-590ccd4fc8a7" />
->
-</div>
+O servidor local é necessário para consultar com segurança os avisos oficiais
+do INMET, usados como referência pela Defesa Civil. O aplicativo também utiliza
+a API Open-Meteo para previsão. Não é necessário cadastrar uma chave.
 
-## 🚀 Tecnologias Utilizadas
+## Funções
 
-Este projeto foi construído utilizando as seguintes tecnologias:
+- Clima atual
+- Pesquisa por cidade
+- Localização do dispositivo
+- Previsão para sete dias
+- Alertas estimados de chuva intensa, alagamentos e elevação de rios
+- Alertas de granizo, neve, ventos fortes, calor extremo e frio intenso
+- Avisos oficiais ativos do INMET por município, com instruções da Defesa Civil
+- Temperatura, sensação térmica, umidade, vento e probabilidade de chuva
+- Layout responsivo e animações climáticas
 
-* **HTML5**: Estruturação semântica.
-* **CSS3**: Design responsivo com efeitos de transparência (Glassmorphism).
-* **JavaScript (ES6+)**: Consumo de API assíncrona (Fetch API) e manipulação dinâmica do DOM.
-* **Font Awesome**: Ícones para temperatura, umidade e vento.
-* **OpenWeatherMap API**: Dados meteorológicos globais.
-
-## 📋 Funcionalidades
-
-* 🔍 **Busca Inteligente**: Pesquise o clima de qualquer cidade do mundo.
-* 🌡️ **Dados em Tempo Real**: Exibição de temperatura atual, máxima e mínima.
-* 💧 **Detalhes Extras**: Umidade do ar e velocidade do vento.
-* 📱 **Design Responsivo**: Layout que se adapta perfeitamente a celulares e desktops.
-* 🎨 **Interface Dinâmica**: O design limpo foca na legibilidade dos dados.
-
+> Os alertas são estimativas baseadas na previsão da Open-Meteo e não substituem
+> os comunicados oficiais. Os avisos do INMET aparecem em uma área separada e
+> incluem acesso ao comunicado original.
